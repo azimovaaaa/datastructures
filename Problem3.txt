@@ -1,0 +1,11 @@
+When the BigO class was tested in Problem3 with an input n=1:
+the constant=1561; cubic= 2853; exponential=4394; 
+
+However, when it was runned with a larger number such as 50:
+bigO(1)= 2616;
+bigO(n^3)= 957128;
+bigO(2^n)= 2867201972312; 
+
+So what we can conclude is that, for O(1) no matter how big is the number
+the operation will complete it's pretty much close to the previous one. However
+that is not the same for O(2^n). The bigger the number gets, the longer it take to process.
